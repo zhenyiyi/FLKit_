@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516F88D21D5B6ACF00C91C8F /* NSObject+FLAddForArc.m in Sources */ = {isa = PBXBuildFile; fileRef = 516F88D11D5B6ACF00C91C8F /* NSObject+FLAddForArc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		516F88D51D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 516F88D41D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m */; };
 		51D6CD091D5AD28400C009FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD081D5AD28400C009FC /* main.m */; };
 		51D6CD0C1D5AD28400C009FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD0B1D5AD28400C009FC /* AppDelegate.m */; };
 		51D6CD0F1D5AD28400C009FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD0E1D5AD28400C009FC /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		516F88D01D5B6ACF00C91C8F /* NSObject+FLAddForArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLAddForArc.h"; sourceTree = "<group>"; };
+		516F88D11D5B6ACF00C91C8F /* NSObject+FLAddForArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FLAddForArc.m"; sourceTree = "<group>"; };
+		516F88D31D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FLAdd.h"; sourceTree = "<group>"; };
+		516F88D41D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+FLAdd.m"; sourceTree = "<group>"; };
 		51D6CD041D5AD28400C009FC /* FLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D6CD081D5AD28400C009FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51D6CD0A1D5AD28400C009FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +117,10 @@
 				51D6CD2A1D5B206C00C009FC /* NSBundle+FLAdd.m */,
 				51D6CD2C1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.h */,
 				51D6CD2D1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.m */,
+				516F88D01D5B6ACF00C91C8F /* NSObject+FLAddForArc.h */,
+				516F88D11D5B6ACF00C91C8F /* NSObject+FLAddForArc.m */,
+				516F88D31D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.h */,
+				516F88D41D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -186,9 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D6CD0F1D5AD28400C009FC /* ViewController.m in Sources */,
+				516F88D51D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m in Sources */,
 				51D6CD0C1D5AD28400C009FC /* AppDelegate.m in Sources */,
 				51D6CD2B1D5B206C00C009FC /* NSBundle+FLAdd.m in Sources */,
 				51D6CD221D5AD2D200C009FC /* NSThread+FLAdd.m in Sources */,
+				516F88D21D5B6ACF00C91C8F /* NSObject+FLAddForArc.m in Sources */,
 				51D6CD251D5B165800C009FC /* NSTimer+FLAdd.m in Sources */,
 				51D6CD2E1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.m in Sources */,
 				51D6CD091D5AD28400C009FC /* main.m in Sources */,
@@ -344,6 +356,7 @@
 				51D6CD1D1D5AD28400C009FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
