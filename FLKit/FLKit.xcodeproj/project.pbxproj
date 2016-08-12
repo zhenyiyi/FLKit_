@@ -19,6 +19,12 @@
 		51D6CD251D5B165800C009FC /* NSTimer+FLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD241D5B165800C009FC /* NSTimer+FLAdd.m */; };
 		51D6CD2B1D5B206C00C009FC /* NSBundle+FLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD2A1D5B206C00C009FC /* NSBundle+FLAdd.m */; };
 		51D6CD2E1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD2D1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.m */; };
+		51D6CD311D5C16EA00C009FC /* NSObject+FLAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD301D5C16EA00C009FC /* NSObject+FLAddForKVO.m */; };
+		51D6CD341D5C1D7F00C009FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD331D5C1D7F00C009FC /* Person.m */; };
+		51D6CD381D5C470D00C009FC /* FLTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD371D5C470D00C009FC /* FLTransaction.m */; };
+		51D6CD421D5C7ACD00C009FC /* RetainCycleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD411D5C7ACD00C009FC /* RetainCycleTimer.m */; };
+		51D6CD451D5C7E8100C009FC /* FLWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD441D5C7E8100C009FC /* FLWeakProxy.m */; };
+		51D6CD4B1D5C943000C009FC /* FLSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6CD4A1D5C943000C009FC /* FLSentinel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,18 @@
 		51D6CD2A1D5B206C00C009FC /* NSBundle+FLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+FLAdd.m"; sourceTree = "<group>"; };
 		51D6CD2C1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSKeyedUnarchiver+FLAdd.h"; sourceTree = "<group>"; };
 		51D6CD2D1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSKeyedUnarchiver+FLAdd.m"; sourceTree = "<group>"; };
+		51D6CD2F1D5C16EA00C009FC /* NSObject+FLAddForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLAddForKVO.h"; sourceTree = "<group>"; };
+		51D6CD301D5C16EA00C009FC /* NSObject+FLAddForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FLAddForKVO.m"; sourceTree = "<group>"; };
+		51D6CD321D5C1D7F00C009FC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		51D6CD331D5C1D7F00C009FC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		51D6CD361D5C470D00C009FC /* FLTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTransaction.h; sourceTree = "<group>"; };
+		51D6CD371D5C470D00C009FC /* FLTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTransaction.m; sourceTree = "<group>"; };
+		51D6CD401D5C7ACD00C009FC /* RetainCycleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetainCycleTimer.h; sourceTree = "<group>"; };
+		51D6CD411D5C7ACD00C009FC /* RetainCycleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetainCycleTimer.m; sourceTree = "<group>"; };
+		51D6CD431D5C7E8100C009FC /* FLWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLWeakProxy.h; sourceTree = "<group>"; };
+		51D6CD441D5C7E8100C009FC /* FLWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLWeakProxy.m; sourceTree = "<group>"; };
+		51D6CD491D5C943000C009FC /* FLSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSentinel.h; sourceTree = "<group>"; };
+		51D6CD4A1D5C943000C009FC /* FLSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSentinel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +94,12 @@
 		51D6CD061D5AD28400C009FC /* FLKit */ = {
 			isa = PBXGroup;
 			children = (
+				51D6CD391D5C52EF00C009FC /* Test */,
 				51D6CD1E1D5AD2AE00C009FC /* Base */,
 				51D6CD0A1D5AD28400C009FC /* AppDelegate.h */,
 				51D6CD0B1D5AD28400C009FC /* AppDelegate.m */,
+				51D6CD321D5C1D7F00C009FC /* Person.h */,
+				51D6CD331D5C1D7F00C009FC /* Person.m */,
 				51D6CD0D1D5AD28400C009FC /* ViewController.h */,
 				51D6CD0E1D5AD28400C009FC /* ViewController.m */,
 				51D6CD101D5AD28400C009FC /* Main.storyboard */,
@@ -101,6 +122,7 @@
 		51D6CD1E1D5AD2AE00C009FC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				51D6CD351D5C46F400C009FC /* Utility */,
 				51D6CD1F1D5AD2AE00C009FC /* Foundation */,
 			);
 			path = Base;
@@ -121,8 +143,32 @@
 				516F88D11D5B6ACF00C91C8F /* NSObject+FLAddForArc.m */,
 				516F88D31D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.h */,
 				516F88D41D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m */,
+				51D6CD2F1D5C16EA00C009FC /* NSObject+FLAddForKVO.h */,
+				51D6CD301D5C16EA00C009FC /* NSObject+FLAddForKVO.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		51D6CD351D5C46F400C009FC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				51D6CD361D5C470D00C009FC /* FLTransaction.h */,
+				51D6CD371D5C470D00C009FC /* FLTransaction.m */,
+				51D6CD431D5C7E8100C009FC /* FLWeakProxy.h */,
+				51D6CD441D5C7E8100C009FC /* FLWeakProxy.m */,
+				51D6CD491D5C943000C009FC /* FLSentinel.h */,
+				51D6CD4A1D5C943000C009FC /* FLSentinel.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		51D6CD391D5C52EF00C009FC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				51D6CD401D5C7ACD00C009FC /* RetainCycleTimer.h */,
+				51D6CD411D5C7ACD00C009FC /* RetainCycleTimer.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,14 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D6CD4B1D5C943000C009FC /* FLSentinel.m in Sources */,
+				51D6CD311D5C16EA00C009FC /* NSObject+FLAddForKVO.m in Sources */,
 				51D6CD0F1D5AD28400C009FC /* ViewController.m in Sources */,
+				51D6CD341D5C1D7F00C009FC /* Person.m in Sources */,
 				516F88D51D5B6E5400C91C8F /* NSNotificationCenter+FLAdd.m in Sources */,
+				51D6CD421D5C7ACD00C009FC /* RetainCycleTimer.m in Sources */,
 				51D6CD0C1D5AD28400C009FC /* AppDelegate.m in Sources */,
 				51D6CD2B1D5B206C00C009FC /* NSBundle+FLAdd.m in Sources */,
+				51D6CD381D5C470D00C009FC /* FLTransaction.m in Sources */,
 				51D6CD221D5AD2D200C009FC /* NSThread+FLAdd.m in Sources */,
 				516F88D21D5B6ACF00C91C8F /* NSObject+FLAddForArc.m in Sources */,
 				51D6CD251D5B165800C009FC /* NSTimer+FLAdd.m in Sources */,
 				51D6CD2E1D5B294400C009FC /* NSKeyedUnarchiver+FLAdd.m in Sources */,
+				51D6CD451D5C7E8100C009FC /* FLWeakProxy.m in Sources */,
 				51D6CD091D5AD28400C009FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
